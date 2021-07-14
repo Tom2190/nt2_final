@@ -1,17 +1,16 @@
 <template>
   <div id="app">
-    <img alt="Vue logo" src="./assets/logo.png">
-    <HelloWorld msg="Welcome to Your Vue.js App"/>
+    <CambioLetras />
   </div>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+import CambioLetras from './components/CambioLetras.vue'
 
 export default {
   name: 'App',
   components: {
-    HelloWorld
+    CambioLetras
   }
 }
 </script>
